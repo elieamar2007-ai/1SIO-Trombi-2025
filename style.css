@@ -1,3 +1,23 @@
+#BESSON {
+    border-color: #548400;
+    background-color: #3ef672f3;
+    border-width: 2px;
+    border-radius: 6px;
+
+}
+
+#BESSON img {
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+}
+
+#BESSON p {
+    text-align: center;
+    font-weight: 600;
+    color: #10141f;
+    margin-top: 8px;
+}
 #GOUYETTE__JARDIN {
     border: 4px solid #FFD700; 
     border-radius: 10px;      
