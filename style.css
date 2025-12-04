@@ -1,5 +1,5 @@
-#BELROSE{
-     background: #eae8e8;
+#BELROSE {
+    background: #eae8e8;
     box-shadow: 0 0 15px;
     border-radius: 20px;
     cursor: pointer;
@@ -7,11 +7,11 @@
 
 }
 
-#BELROSE:hover{
-        background-color: #a3a2a2;
-    }
+#BELROSE:hover {
+    background-color: #a3a2a2;
+}
 
-#BELROSE p{
+#BELROSE p {
     text-align: center;
     font-weight: bold;
 }
@@ -35,8 +35,10 @@
     background-color: lightblue; /* nouvelle couleur au survol */
     color: red; /* texte change de couleur */
 }
-#MAREY_VAIRELLES{
-  background-color : gold; }
+
+#MAREY_VAIRELLES {
+    background-color: gold;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
@@ -119,13 +121,8 @@
     border-radius: 12px;
     background: linear-gradient(
             135deg,
-            #e40303, /* rouge */
-            #ff8c00, /* orange */
-            #ffed00, /* jaune */
-            #008026, /* vert */
-            #004dff, /* bleu */
-            #750787  /* violet */
-}
+            #e40303, /* rouge */ #ff8c00, /* orange */ #ffed00, /* jaune */ #008026, /* vert */ #004dff, /* bleu */ #750787 /* violet */
+    );}
 
 
 #DANGUIN img {
@@ -229,12 +226,11 @@
 
 #GRUEL:hover p {
     color: #ff2d2d;
-    text-shadow:
-            0 0 5px #ff2d2d,
-            0 0 10px #ff2d2d,
-            0 0 15px #ff2d2d,
-            0 0 25px #ff4949,
-            0 0 40px #ff6060;
+    text-shadow: 0 0 5px #ff2d2d,
+    0 0 10px #ff2d2d,
+    0 0 15px #ff2d2d,
+    0 0 25px #ff4949,
+    0 0 40px #ff6060;
 }
 
 /* ========== MESPREUVE ========== */
@@ -290,14 +286,14 @@
 /* Effet arc-en-ciel au survol */
 #MAREY_VAIRELLES:hover {
     background: linear-gradient(
-        90deg,
-        red,
-        orange,
-        yellow,
-        green,
-        cyan,
-        blue,
-        purple
+            90deg,
+            red,
+            orange,
+            yellow,
+            green,
+            cyan,
+            blue,
+            purple
     );
     color: white;
 }
@@ -308,38 +304,40 @@
     box-shadow: 0 2px white;
 }
 
-#LUTAUD{color : gold ; 
-  background-color: black;
-  color: gold;
-  background-color: black;
-  padding: 10px;
-  border: 3px solid gold;
-  border-radius: 10px;
-  box-shadow: 0 0 6px gold;
+#LUTAUD {
+    color: gold;
+    background-color: black;
+    color: gold;
+    background-color: black;
+    padding: 10px;
+    border: 3px solid gold;
+    border-radius: 10px;
+    box-shadow: 0 0 6px gold;
 }
 
 #LUTAUD img {
-  transition: transform 0.8s ease-in-out,
-              box-shadow 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out,
+    box-shadow 0.8s ease-in-out;
 }
+
 #LUTAUD:hover img {
-  transform: rotate(360deg);
-  box-shadow: 0 0 20px gold, 0 0 30px gold inset;
+    transform: rotate(360deg);
+    box-shadow: 0 0 20px gold, 0 0 30px gold inset;
 }
 
 #MESPREUVE {
     transition: transform 0.3s ease, border-color 0.3s ease, border-width 0.3s ease;
     border: 2px solid #000;
 
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('MESPREUVE/phot-css.jpg');
-    background-size: cover; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('MESPREUVE/phot-css.jpg');
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 
     color: white;
 
-    border-radius: 20px; 
-    overflow: hidden; 
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 #MESPREUVE a {
@@ -348,12 +346,12 @@
 }
 
 #MESPREUVE:hover {
-    transform: scale(1.1); 
-    
-    border-color: yellow; 
-    
+    transform: scale(1.1);
+
+    border-color: yellow;
+
     border-width: 5px;
-    
+
     cursor: pointer;
-    z-index: 10; 
+    z-index: 10;
 }
