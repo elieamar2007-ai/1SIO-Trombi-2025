@@ -1,3 +1,41 @@
+#BARLET {
+  width: 250px;
+  padding: 15px;
+  background: linear-gradient(135deg, #5c6bc0, #42a5f5);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Effet au survol */
+#BARLET:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* Image ronde avec effet de zoom */
+#BARLET img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  transition: transform 0.3s ease;
+}
+
+#BARLET:hover img {
+  transform: scale(1.1);
+}
+
+/* Nom */
+#BARLET h2 {
+  margin-top: 12px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 1px;
 #CAYRAC {
   width: 220px;
   /*height: 220px;*/
