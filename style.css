@@ -220,3 +220,11 @@
     cursor: pointer;
     z-index: 10;
 }
+/* ========== AMAR ========== */
+#AMAR {
+    border-radius: 15px;
+    background: linear-gradient(to bottom, blue, #FFD700);
+    transition: 0.3s;
+    background-color: orange;
+}
+
