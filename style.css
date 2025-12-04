@@ -1,5 +1,21 @@
-#BELROSE {
-    background: #eae8e8;
+#CAYRAC {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px;                    /* mets 50% pour un cercle */
+  border: 4px solid #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(135deg, #00c853, #aeea00); /* verts */
+  padding: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#CAYRAC:hover {
+  transform: scale(1.03);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.45);
+}
+#BELROSE{
+     background: #eae8e8;
     box-shadow: 0 0 15px;
     border-radius: 20px;
     cursor: pointer;
